@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    background-color: #F5F5F5;
+    height: 90vh;
+    width: 90vh;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main > h1 {
+    font-size: 40px;
+    margin: 1rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.number-grid {
+    display:grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    grid-row-gap: 5px; /* Adjust the vertical gap as needed */
+    grid-column-gap: 30px;
+}
+
+.die {
+    font-size: 40px;
+    padding-top: 20px; /* Adjust the top padding value as needed */
+    padding-right: 30px; /* Adjust the right padding value as needed */
+    padding-bottom: 20px; /* Adjust the bottom padding value as needed */
+    padding-left: 30px; /* Adjust the left padding value as needed */
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: purple;
+    padding: 20px 40px; /* Adjust padding values as needed */
+    margin-top: 0px; /* Adjust margin-top as needed */
+    margin-bottom: 0px;
+    border: none; /* Remove default button border */
+    color: white; /* Set text color to white or any contrasting color */
+    cursor: pointer; /* Add a cursor pointer on hover for better UX */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    font-size: 1.3rem;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial;
+}
+
+.rolls-name {
+    margin-top: 12px;
+    font-size: 1.5rem;
+}
+.time {
+    margin-top: 0px;
+    font-size: 1.4rem;
+}
+
+.bestTime {
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
