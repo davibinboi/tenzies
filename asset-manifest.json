@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/davibinboi/tenzies.git/static/css/main.c4ce88c5.css",
+    "main.js": "/davibinboi/tenzies.git/static/js/main.a91d5017.js",
+    "static/js/787.1937f22b.chunk.js": "/davibinboi/tenzies.git/static/js/787.1937f22b.chunk.js",
+    "index.html": "/davibinboi/tenzies.git/index.html",
+    "main.c4ce88c5.css.map": "/davibinboi/tenzies.git/static/css/main.c4ce88c5.css.map",
+    "main.a91d5017.js.map": "/davibinboi/tenzies.git/static/js/main.a91d5017.js.map",
+    "787.1937f22b.chunk.js.map": "/davibinboi/tenzies.git/static/js/787.1937f22b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4ce88c5.css",
+    "static/js/main.a91d5017.js"
+  ]
+}
